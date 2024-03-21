@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <style>
+    body{
+        background-image: url(https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+    }
+    table {
+        width: 100%;        
+        border-collapse: collapse;
+        
+    }
+    th, td {
+        padding-right: 100px;
+    }
+    th {
+        height: 40px;
+        vertical-align: bottom;
+    }
+    tr:hover {background-color: rgb(45, 100, 176);}
+    .head ,.head1{
+        width: 300px;
+       font-size:40px;
+       color:blue;
+       text-align:center;
+        padding: 50px;
+        margin: 20px;
+      }
+      .container{
+        background-color:white;
+        padding-right: 100px;
+      }
+      fhead {
+            
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* min-height: 100vh; */
+    }
+
+    .container {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 40px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 200
+px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="phone"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 16px;
+    }
+
+    input[type="checkbox"] {
+        margin-right: 5px;
+    }
+
+    .button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+   </style>
+</head>
+<body>
+    <table class="table1">
+        <tr>
+            <td id="M11">PLATAFORMA</td>
+            <td>HOME</td>
+            <td>ABOUT</td>
+            <td>SPEAKERS</td>
+            <td>SCHEDULE</td>
+            <td>BLOG</td>
+            <td>CONTACT</td>
+            <td style="background-color:blue;">BUY TICKET</td>
+        </tr>
+    </table>
+    <div class="head">Buissness Leaders</div>
+    <div class="head1">Conference 2019</div>
+    
+</body>
+<fhead>
+    <div class="container">
+        <h1>Join Conference</h1>
+        <form action="#">
+            <input type="text" placeholder="Enter your Name" required><br>
+            <input type="email" placeholder="Enter your Email" required><br>
+            <input type="phone" placeholder="Enter your Phone"><br>
+            <label for="terms">
+                <input type="checkbox" id="terms" required>
+                I have read and accept the terms and conditions
+            </label><br>
+            <button type="submit" class="button">Join now</button>
+        </form>
+    </div>
+</fhead>
+</html>

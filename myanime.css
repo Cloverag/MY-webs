@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  header {
+    background-color: rgb(167, 199, 231);
+    color: #cad4e9;
+    padding: 20px;
+    display:flow-root ;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 2px 2px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 30%; /* Full-width */
+    font-size: 12px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+float: right;  
+}
+.logo ul{
+    font-size: 12px;
+}
+
+  img {
+    border: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    width: "400";
+    height: "550";
+    object-fit: contain;
+  }  
+  img:hover {
+    box-shadow: 0 0 180px 1px rgba(0, 140, 186, 0.5);
+  }
+  
+  .logo {
+    font-size: 50px;
+    font-family: "Sorts Mill Goudy", serif;
+    color:blue;
+    
+}
+  lmg{
+    aspect-ratio: 3/2;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  #selectBox{
+    float: right;
+
+  }
+  nav ul li {
+    display:inline ;
+    margin-right:20px;
+    font-family: "Sorts Mill Goudy", serif;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 170%;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .destinations {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .destination {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .destination img {
+    width: 100%;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 20% auto;
+    padding: 20px;
+    width: 50%;
+  }
+  
+  .close {
+    float: right;
+    cursor: pointer;
+  }
+  .container{
+    background-color:white;
+    padding-right: 100px;
+  }
+  .fhead {
+        
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+}
+
+.container {
+    background-color: #8e4a4a;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+}
+.container{
+    background-color:rgb(142, 187, 236);
+    padding-right: 100px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="phone"] {
+      display: block;
+      width: 30%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      font-size: 16px;
+      ;
+  }
+
+  input[type="checkbox"] {
+      margin-right: 5px;
+  }
+
+  .button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
